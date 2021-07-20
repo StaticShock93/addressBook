@@ -18,14 +18,17 @@
     <main> 
         <div class="container mt-5">
         <h1 class="mb-3">My Address Book</h1>
-        <div class="container container-md bg-light border border-2 border-secondary shadow-lg">
+        <div class="container-fluid bg-light border border-2 border-secondary shadow-lg">
             <!--Left User Img column (same parent row as form) -->
-            <div class="row p-2 pt-3 pb-3">
+            <div class="container d-flex p-5 justify-content-center">
+            <div class="row">
                 <div class="col">
                     <div>
                         <img class="img-fluid img-responsive" src="img/GirlOne_4x (1).png" alt="blank_userImg">
                     </div>
                 </div>
+            </div>
+            <div class="container">
                 <!-- Rightside Form Column (has same parent row as img column, contains nested form/rows) -->
                 <div class="col">
                     <form name="addressBook" action="#">
@@ -87,9 +90,11 @@
                     </form>
                 </div>
             </div>
+            </div>
 
         </div>
-    </div>
+     </div>
+
 </main>
       
     <!-- Bootstrap JS -->

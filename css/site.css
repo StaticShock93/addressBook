@@ -4,10 +4,10 @@ body{
 }
 
 body> main{
-    max-height: 80vh;
+    max-height: 100vh;
 }
 
 img{
-    max-height: 60vh;
+    max-height: 100vh;
 }
 
